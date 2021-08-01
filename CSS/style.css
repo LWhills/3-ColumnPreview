@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container * > * {
+  margin-top: 2rem;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  color: #ffffff;
+  background-color: #252424;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  margin-top: 1em;
+  color: #f2f2f2;
+}
+.cardBody {
+  line-height: 1.5625rem;
+  font-weight: 400;
+  margin-bottom: 3em;
+  max-width: 230px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  /* margin-bottom: 4.5em; */
+  padding-bottom: 4.055rem;
+  border-radius: 10px;
+}
+.card > * {
+  margin-left: 3rem;
+}
+.card-1 {
+  background-color: #e28625;
+}
+.card-1 .btn {
+  color: #e28625;
+}
+.card-2 {
+  background-color: #006971;
+}
+.card-2 .btn {
+  color: #006971;
+}
+.card-3 {
+  background-color: #004140;
+}
+.card-3 .btn {
+  color: #004140;
+}
+.btn {
+  background-color: #f2f2f2;
+  padding: 1em 2em;
+  border-radius: 25px;
+}
+.btn:hover {
+  background-color: #ffffff00;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+@media only screen and (min-device-width: 838px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cardBody {
+    margin-bottom: 7em;
+  }
+}
