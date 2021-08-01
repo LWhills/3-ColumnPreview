@@ -73,10 +73,9 @@ h2 {
   border: 2px solid #f2f2f2;
   color: #f2f2f2;
 }
-@media only screen and (min-device-width: 838px) {
+@media only screen and (min-width: 950px) {
   .container {
     flex-direction: row;
-    flex-wrap: wrap;
   }
   .cardBody {
     margin-bottom: 7em;
