@@ -1,5 +1,5 @@
 
-# 3-Column-Preview
+# 3 Column preview
 
 Front end mentor challenge : [Link](https://www.frontendmentor.io/solutions/3columnpreview-FR5iEixnn)
 
