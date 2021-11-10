@@ -11,6 +11,6 @@ Front end mentor challenge : [Link](https://www.frontendmentor.io/solutions/3col
   
 ## Demo
 
-https://loganwillaumez.github.io/3-column-preview/
+https://loganwillaumez-frontendmentor.github.io/007-3-column-preview/
 
   
